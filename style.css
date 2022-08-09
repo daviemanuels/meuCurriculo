@@ -16,6 +16,19 @@ h1, h2, h3{
     color: #28724A;
 }
 
+span {
+    color: #28724A;
+    font-style: italic;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* ------------ Dados pessoais ------------ */
 
 .containerPessoal{
