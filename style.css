@@ -31,6 +31,10 @@ p {
 
 /* ------------ Dados pessoais ------------ */
 
+.tituloFormacao {
+    margin-bottom: 20px;
+}
+
 .dadosPessoais p{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -41,13 +45,11 @@ p {
 }
 
 .tituloPessoal, .tituloObjetivo, .tituloExperiencias, .tituloFormacao, .tituloAptidao{
-    margin-top: 20px;
-    background-color: #F0ECEC;
-}
-
-.tituloPessoal, .tituloObjetivo, .tituloExperiencias, .tituloFormacao, .tituloAptidao{
     display: flex;
     align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #F0ECEC;
 }
 
 .tituloPessoal img, .tituloObjetivo img, .tituloExperiencias img, .tituloFormacao img, .tituloAptidao img {
@@ -74,7 +76,7 @@ p {
     padding-left: 30%;
 }
 
-.tituloExperiencia {
+.tituloExperiencia, .tituloFormacaoGeral {
     display: flex;
     justify-content: space-between;
 }
@@ -84,6 +86,6 @@ p {
     font-weight: bold;
 }
 
-.dataExperiencia {
+.dataExperiencia, .dataFormacao {
     margin-top: 0px;
 }
