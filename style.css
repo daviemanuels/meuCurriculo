@@ -4,10 +4,10 @@
 }
 
 #containerGeral{
-    width: 800px;
+    width: 900px;
     padding: 40px;
     margin: 0 auto;
-    /* background-color: aqua;  */
+    mhjbackground-color: aqua;
 }
 
 /* ------------ TAGs de título ------------ */
@@ -27,6 +27,15 @@ span {
 p {
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a, a:link {
+    color: black;
 }
 
 /* ------------ Dados pessoais ------------ */
@@ -88,4 +97,22 @@ p {
 
 .dataExperiencia, .dataFormacao {
     margin-top: 0px;
+}
+.conteudoAptidao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130px;
+}
+
+.bolaVerde {
+    background-color: #28724A;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.attBolaVerde {
+    display: flex;
+    gap: 2px;
 }
