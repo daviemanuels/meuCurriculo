@@ -3,11 +3,16 @@
     padding: o;
 }
 
+body {
+    background-color: #28724A;
+}
+
 #containerGeral{
     width: 900px;
     padding: 40px;
-    margin: 0 auto;
-    mhjbackground-color: aqua;
+    margin: 10px auto;
+    box-shadow: 10px 10px 8px rgb(39, 35, 35);
+    background-color: #FFFFFF; 
 }
 
 /* ------------ TAGs de título ------------ */
@@ -102,7 +107,13 @@ a, a:link {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 130px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.conteudoAptidaoGeral {
+    display: flex;
+    gap: 100px;
 }
 
 .bolaVerde {
@@ -112,7 +123,14 @@ a, a:link {
     border-radius: 10px;
 }
 
+.bolaCinza {
+    background-color: #C4C4C4;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
 .attBolaVerde {
     display: flex;
-    gap: 2px;
+    gap: 3px;
 }
